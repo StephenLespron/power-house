@@ -1,0 +1,36 @@
+.Nav {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: calc(100vw - (100vw - 100%));
+	background-color: silver;
+	color: whitesmoke;
+}
+
+.Nav a {
+	height: 80%;
+}
+
+.Nav img {
+	height: 100%;
+	padding: 0 3vw;
+}
+
+.Nav ul {
+	display: flex;
+}
+
+.Nav > ul a {
+	text-align: center;
+	width: 10vw;
+	color: rgb(111, 35, 39);
+	list-style-type: none;
+	padding: 0 3vw;
+	font-size: 2.5vh;
+	font-weight: bold;
+}

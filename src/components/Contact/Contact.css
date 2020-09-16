@@ -1,0 +1,56 @@
+.Contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	min-height: 82vh;
+}
+
+.Contact h2 {
+	margin-top: 3vh;
+	font-size: 15vh;
+	font-weight: bold;
+	color: rgb(111, 35, 39);
+}
+
+.Contact a {
+	color: rgb(111, 35, 39);
+}
+
+.Contact span,
+.Contact p {
+	width: 25vw;
+	margin-bottom: 1vh;
+	padding-left: 8vw;
+	font-size: 2vh;
+}
+
+form * {
+	text-align: center;
+	margin-top: 1vh;
+	width: 30%;
+	margin-right: 20vw;
+}
+
+form > #messageBox {
+	margin-right: 0vw;
+	text-align: justify;
+	width: 100%;
+	height: 30vh;
+	border: 1px solid gray;
+}
+form > #sendMsgBtn {
+	width: 20%;
+	align-self: flex-end;
+}
+
+select:invalid {
+	color: grey;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 50%;
+}

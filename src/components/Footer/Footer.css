@@ -1,0 +1,23 @@
+.Footer {
+	width: calc(100vw - (100vw - 100%));
+	min-height: 8vh;
+	border-top: 1px solid #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: silver;
+}
+
+.Footer img {
+	margin-right: 0.5rem;
+	height: 5vh;
+}
+
+.Footer a {
+	font-size: 1.3vh;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(111, 35, 39);
+}
